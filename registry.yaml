@@ -1,4 +1,14 @@
 # yaml-language-server: $schema=./.github/registry_schema.json
+- title: Knowledge graph construction with Claude
+  description: Build knowledge graphs from unstructured text using Claude for entity
+    extraction, relation mining, deduplication, and multi-hop graph querying.
+  path: capabilities/knowledge_graph/guide.ipynb
+  authors:
+  - Anthropic
+  date: '2026-03-23'
+  categories:
+  - RAG & Retrieval
+  - Tools
 - title: Giving Claude a crop tool for better image analysis
   description: Give Claude a crop tool to zoom into image regions for detailed analysis
     of charts, documents, and diagrams.
@@ -35,6 +45,16 @@
   authors:
   - PedramNavid
   date: '2025-11-24'
+  categories:
+  - Tools
+  - Agent Patterns
+- title: 'Context engineering: memory, compaction, and tool clearing'
+  description: Compare context engineering strategies for long-running agents and
+    learn when each applies, what it costs, and how they compose.
+  path: tool_use/context_engineering/context_engineering_tools.ipynb
+  authors:
+  - isabella-anthropic
+  date: '2026-03-20'
   categories:
   - Tools
   - Agent Patterns
@@ -155,6 +175,16 @@
   authors:
   - preston-tuggle
   date: '2026-03-09'
+  categories:
+  - Claude Agent SDK
+  - Agent Patterns
+- title: Building a session browser
+  description: List, read, rename, tag, and fork Agent SDK sessions on disk to build
+    a conversation history sidebar without writing a transcript parser.
+  path: claude_agent_sdk/05_Building_a_session_browser.ipynb
+  authors:
+  - qing-ant
+  date: '2026-03-30'
   categories:
   - Claude Agent SDK
   - Agent Patterns
